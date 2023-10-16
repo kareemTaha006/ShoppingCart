@@ -1,0 +1,96 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .text {
+    margin: auto;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -38px;
+  }
+  /* Container for image and form */
+  .container_img_form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    padding: 20px;
+    gap: 50px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 800px;
+  }
+  
+  /* Style for the image */
+  .image_contact img {
+    max-width: 65%;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* Form container */
+  .container_form {
+    width: 40%;
+    margin: auto;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Form label and input style */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    border-radius: 3px;
+  }
+  .message textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    border-radius: 3px;
+    height: 120px;
+  }
+  /* Submit button style */
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 22px;
+    width: 35%;
+    cursor: pointer;
+  }
+  
+  /* Validation message style */
+  .validation {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    /* display: none; */
+  }
+  
+  /* Show validation messages when needed */
+  .Display_None {
+    display: none;
+  }
+  

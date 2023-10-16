@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>ShoppingCart</title>
+  <link rel='stylesheet' href='css/style.css'> 
+ <link rel='stylesheet' href='css/home.css'> 
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+
+  <!-- https://fontawesome.com/icons/cart-shopping?f=classic&s=solid for cart -->
+
+
+
+
+
+
+
+
+
+</head>
+
+<body onload="
+play()">
+
+  <button id="scrollToTopButton">Top</button>
+  <header>
+    <div class="container">
+
+      <div class="header-content">
+        <a  href="index.html" class="brand">ShoppingCart</a>
+
+        <nav>
+          <ul class="ul-nav">
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="About  us.html">About </a></li>
+            <li class= "shopping-cart"> 
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="badge"> </span>
+              <div id="product-cart" class="carts-products">
+              <div></div>
+                <a href="cartproduct.html">view all products</a>
+              </div>
+
+            </li>
+
+          
+          </ul>
+        </nav>
+
+
+      </div>
+
+    </div>
+
+
+
+  </header>
+
+  <section class="box">
+
+    <img id="myimg" src="images/a.png" onmouseenter="stop()" onmouseleave="play()">
+
+
+    <div class="buttons">
+      <button id="prev" ondblclick="stop()" onclick="prevHandler()" onmouseenter="stop()" onmouseleave="play()">
+        < </button>
+
+
+          <button id="next" ondblclick="stop()" onclick="nextHandler()" onmouseenter="stop()" onmouseleave="play()"> >
+          </button>
+    </div>
+  </section>
+  <section class="home">
+    <!-- start continer -->
+    <div class="container">
+       <div class="categories-container" ></div>
+
+      <!-- start product -->
+      <div class="proudct" id="products" >
+
+
+        
+
+
+
+          </div>
+          <!-- end product -->
+
+        </div>
+        <!-- end continer -->
+
+  </section>
+
+
+
+
+ 
+
+
+
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="container">
+      <div class="footer-top section">
+        <div class="footer-brand">
+          <a href="#" class="logo">Woodex</a>
+          <ul>
+            <li class="footer-list-item">
+              <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+              <address class="address">
+                Woodex, N Teseen St, New Cairo 1, Cairo Governorate
+              </address>
+            </li>
+            <li class="footer-list-item">
+              <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+              <a href="tel:+0101122334455" class="footer-link"
+                >+0101122334455</a
+              >
+            </li>
+            <li>
+              <ul class="social-list" >
+                <li>
+                  <a href="#" class="social-link"
+                    ><ion-icon name="logo-facebook"></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link"
+                    ><ion-icon name="logo-twitter"></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link"
+                    ><ion-icon name="logo-tumblr"></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Help & Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help & Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Returns & Refunds</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Stores</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">About Us</p>
+          </li>
+
+          <li>
+            <a href="./about.html" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">What We Do</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ Page</a>
+          </li>
+
+          <li>
+            <a href="./ContactUs.html" class="footer-link">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="footer-list-title">Newsletter</p>
+          <form action="" class="footer-form">
+            <input
+              type="email"
+              name="email_address"
+              class="email-field"
+              placeholder="Your email address"
+              required
+            />
+
+            <button type="submit" class="footer-form-btn">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+          <div class="wrapper">
+            <a href="#" class="footer-link">Term & Condition</a>
+            <a href="#" class="footer-link">Policy</a>
+            <a href="#" class="footer-link">Map</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy;&copy; 2024 All Rights Reserved by
+          <a href="#" class="copyright-link">3bdelaty</a>
+        </p>
+  <!-- <button id="scrollToTopButton">Go to Top</button> -->
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- End of Footer
+BAck to top -->
+  <!-- <a href="#" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon  name="arrow-up" aria-hidden="true"></ion-icon>
+  </a> -->
+  <!-- End of BAck to top -->
+  <!-- <script src="./js/index.js" defer></script> --> 
+
+  <script src="js/Data.js"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

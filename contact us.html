@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <!-- favourtie icon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- file css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contactus.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <!-- google font size -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+  
+  <body>
+
+
+    <header>
+      <div class="container">
+  
+        <div class="header-content">
+          <a href="index.html" class="brand">ShoppingCart</a>
+  
+          <nav>
+            <ul class="ul-nav">
+              <li><a href="contact us.html">Contact us</a></li>
+              <li><a href="About  us.html">About </a></li>
+             
+  
+            
+            </ul>
+          </nav>
+  
+  
+        </div>
+  
+      </div>
+  
+  
+  
+    </header>
+
+
+
+    <!-- sidebar -->
+    <div class="sidebar" data-navbar>
+      <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="wrapper">
+        <ul class="sidebar-list">
+          <li><p class="sidebar-list-title">Language</p></li>
+          <li><a href="#" class="sidebar-link">English</a></li>
+          <li><a href="#" class="sidebar-link">French</a></li>
+          <li><a href="#" class="sidebar-link">Arabric</a></li>
+        </ul>
+
+        <ul class="sidebar-list">
+          <li><p class="sidebar-list-title">Currency</p></li>
+          <li><a href="#" class="sidebar-link">USD - US Dollar</a></li>
+          <li><a href="#" class="sidebar-link">Euro</a></li>
+          <li><a href="#" class="sidebar-link">Pound</a></li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="./Index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="./about.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#product" class="navbar-link" data-nav-link>Product</a>
+          </li>
+          <li class="navbar-item">
+            <a href="./Index.html#blog_d" class="navbar-link" data-nav-link
+              >Blogs</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <ul class="conatct-list">
+        <li>
+          <p class="contact-list-title">Contact Us</p>
+        </li>
+        <li class="contact-item">
+          <address class="address">
+            N Teseen St, New Cairo 1, Cairo Governorate 4730421
+          </address>
+        </li>
+        <li class="contact-item">
+          <a href="https://mail.google.com/" class="contact-link"
+            >support.center@woodex.com</a
+          >
+        </li>
+
+        <li class="contact-item">
+          <a href="https://t.me/" class="contact-link">(010) 1122334455 </a>
+        </li>
+      </ul>
+      <div class="social-wrapper">
+        <p class="social-list-title">Follow US On Socials</p>
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link"
+              ><ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link"
+              ><ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link"
+              ><ion-icon name="logo-tumblr"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End of sidebar -->
+    <!-- overlay -->
+    <div class="overlay" data-overlay data-nav-toggler></div>
+    <!-- end of overlay -->
+    <div class="text">
+      <p>
+        <i class="fas fa-comments"></i>
+        <strong>Let's Talk About Every Thing</strong>
+      </p>
+    </div>
+    <section class="section">
+      <div class="container_img_form">
+        <div class="image_contact">
+          <img src="./images/contact_2.jpg" alt="" />
+        </div>
+        <div class="container_form">
+          <form action="">
+            <div class="first_name">
+              <label for="firstname">First Name </label>
+              <input
+                type="text"
+                id="firstname"
+                placeholder="Enter your first name"
+                pattern="^[A-Za-z]{5,}$"
+                title="Your first name musn't contain numbers and at least five character"
+                required
+              />
+            </div>
+            <p class="Display_None validation" id="P_User">
+              Please Enter yor first Name correctly
+            </p>
+            <div class="last_name">
+              <label for="lastname">Last Name </label>
+              <input
+                type="text"
+                id="lastname"
+                placeholder="Enter your last name"
+                pattern="^[A-Za-z]{5,}$"
+                title="Your last name musn't contain numbers and at least five character"
+                required
+              />
+            </div>
+            <p class="Display_None validation" id="P_User_last">
+              Please Enter yor last Name correctly
+            </p>
+            <div class="email">
+              <label for="email">Email </label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter your email"
+                pattern="^[A-Za-z0-9]{4,15}@(gmail.com|outlook.com)$"
+                title="Your Email must be correct and only gmail or outlook"
+                required
+              />
+            </div>
+            <p class="Display_None validation" id="P_email">
+              Please Enter Valid Email
+            </p>
+
+            <div class="message">
+              <label for="message">Write Your Message </label>
+              <textarea
+                name=""
+                id="message"
+                required
+                placeholder="write Your Message"
+              ></textarea>
+            </div>
+            <p class="Display_None validation" id="P_message">
+              Please Enter at least 50 words.
+            </p>
+            <div class="submit_reset">
+              <input type="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top section">
+          <div class="footer-brand">
+            <a href="#" class="logo">Woodex</a>
+            <ul>
+              <li class="footer-list-item">
+                <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+                <address class="address">
+                  Woodex, N Teseen St, New Cairo 1, Cairo Governorate
+                </address>
+              </li>
+              <li class="footer-list-item">
+                <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+                <a href="tel:+0101122334455" class="footer-link"
+                  >+0101122334455</a
+                >
+              </li>
+              <li>
+                <ul class="social-list">
+                  <li>
+                    <a href="#" class="social-link"
+                      ><ion-icon name="logo-facebook"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link"
+                      ><ion-icon name="logo-twitter"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link"
+                      ><ion-icon name="logo-tumblr"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Help & Information</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help & Contact Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Returns & Refunds</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Online Stores</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">About Us</p>
+            </li>
+
+            <li>
+              <a href="./about.html" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">What We Do</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ Page</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title">Newsletter</p>
+            <form action="" class="footer-form">
+              <input
+                type="email"
+                name="email_address"
+                class="email-field"
+                placeholder="Your email address"
+                required
+              />
+
+              <button type="submit" class="footer-form-btn">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+            <div class="wrapper">
+              <a href="#" class="footer-link">Term & Condition</a>
+              <a href="#" class="footer-link">Policy</a>
+              <a href="#" class="footer-link">Map</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy;&copy; 2024 All Rights Reserved by
+            <a href="#" class="copyright-link">3bdelaty</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End of Footer  -->
+
+    <script src="./js/contactus.js"></script>
+
+
+  </body>
+</html>
